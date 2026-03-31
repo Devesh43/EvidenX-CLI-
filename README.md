@@ -1,6 +1,6 @@
 
 
-# 🧩 **EvidenX (CLI)** — Command-Line Forensic Extraction Suite
+# 🧩 **EvidenX (CLI)** : Command-Line Forensic Extraction Suite
 
 ---
 
