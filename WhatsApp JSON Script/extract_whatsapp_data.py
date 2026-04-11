@@ -57,7 +57,7 @@ class WhatsAppDataExtractor:
             for file in files:
                 if file.lower().endswith('.zip'):
                     zip_path = os.path.join(root, file)
-                    print(f"✅ Found ZIP file: {zip_path}")
+                    print(f" Found the ZIP file: {zip_path}")
                     return zip_path
         
         raise FileNotFoundError("❌ No .zip file found in the provided folder")
