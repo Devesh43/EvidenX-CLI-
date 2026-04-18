@@ -4,9 +4,9 @@
 
 ---
 
-## 🔍 Overview
+##  Overview
 
-**EvidenX (CLI)** is a modular **digital forensic extraction framework** designed for **rooted Android data dumps**.
+**EvidenX (CLI)** is a modular **digital forensic extraction framework** designed for only **rooted Android data dumps**.
 It automates the **decryption, parsing, and normalization** of application databases from **WhatsApp**, **Signal**, and **Instagram**, producing clean, structured **JSON datasets** ready for analysis, visualization, or case documentation.
 
 The suite focuses on reliability, transparency, and evidentiary accuracy — ensuring every step of the process is traceable, logged, and reproducible.
