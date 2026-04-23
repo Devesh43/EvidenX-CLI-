@@ -1,6 +1,6 @@
 
 
-# 🧩 **EvidenX (CLI)** : Command-Line Forensic Extraction Suite
+#  **EvidenX (CLI)** : Command-Line Forensic Extraction Suite
 
 ---
 
@@ -14,14 +14,14 @@ EvidenX operates fully offline and is intended for examiners handling logical or
 
 ---
 
-## 🧠 Core Philosophy
+## Core Philosophy
 
 > Digital evidence shouldn’t just be decrypted — it should be **understood**.
 > EvidenX transforms raw application data into structured narratives of user activity, while maintaining forensic integrity and auditability at every level.
 
 ---
 
-## ⚙️ Key Capabilities
+## Key Capabilities
 
 * **Rooted Android Data Support** — Operates directly on `/data` partitions or full logical dumps extracted from rooted devices.
 * **End-to-End Automation** — From cryptographic key recovery to final JSON export.
