@@ -34,7 +34,7 @@ EvidenX operates fully offline and is intended for examiners handling logical or
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```
 EvidenX(CLI)/
@@ -63,7 +63,7 @@ The `orchestrator.py` script serves as the control layer — automatically ident
 
 ---
 
-## 🧰 Technical Stack
+##  Technical Stack
 
 | Layer                    | Technology                        |
 | ------------------------ | --------------------------------- |
@@ -76,7 +76,7 @@ The `orchestrator.py` script serves as the control layer — automatically ident
 
 ---
 
-## 🧩 Module-Wise Functionality
+##  Module-Wise Functionality
 
 ### 🟢 **WhatsApp Extractor**
 
