@@ -147,7 +147,7 @@ class WhatsAppDataExtractor:
         
         # Sort by date (newest first)
         media_files.sort(key=lambda x: x['date'], reverse=True)
-        print(f"📊 Found {len(media_files)} media files")
+        print(f"Found {len(media_files)} media files")
         return media_files
 
     def format_file_size(self, size_bytes):
@@ -165,7 +165,7 @@ class WhatsAppDataExtractor:
 
     def extract_media_from_zip(self, zipf, media_files):
         """Extract all media files from ZIP to local media folder"""
-        print("🎬 Extracting media files to local folder...")
+        print(" Extracting media files to local folder...")
         
         extracted_count = 0
         failed_count = 0
