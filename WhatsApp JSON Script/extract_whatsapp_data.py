@@ -224,7 +224,7 @@ class WhatsAppDataExtractor:
 
     def save_media_path_mappings(self):
         """Save media path mappings to separate files"""
-        print("💾 Saving media path mappings...")
+        print(" Saving media path mappings...")
         
         # 1. Complete media mapping file
         media_mapping_file = self.media_paths_dir / "media_path_mapping.json"
