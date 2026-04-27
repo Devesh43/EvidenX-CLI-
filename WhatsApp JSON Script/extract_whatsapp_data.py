@@ -206,7 +206,7 @@ class WhatsAppDataExtractor:
                 failed_count += 1
                 continue
         
-        print(f"✅ Media extraction complete: {extracted_count} extracted, {failed_count} failed")
+        print(f" Media extraction complete: {extracted_count} extracted, {failed_count} failed")
         return extracted_count
 
     def find_media_in_row(self, row, colnames):
