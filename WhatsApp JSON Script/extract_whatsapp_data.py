@@ -45,9 +45,9 @@ class WhatsAppDataExtractor:
         self.media_dir.mkdir(exist_ok=True)
         self.media_paths_dir.mkdir(exist_ok=True)
         
-        print(f"📁 Output directory: {self.output_dir.absolute()}")
-        print(f"📁 Media directory: {self.media_dir.absolute()}")
-        print(f"📁 Media paths directory: {self.media_paths_dir.absolute()}")
+        print(f" Output directory: {self.output_dir.absolute()}")
+        print(f" Media directory: {self.media_dir.absolute()}")
+        print(f" Media paths directory: {self.media_paths_dir.absolute()}")
 
     def find_zip_file(self):
         """Find the WhatsApp backup ZIP file"""
