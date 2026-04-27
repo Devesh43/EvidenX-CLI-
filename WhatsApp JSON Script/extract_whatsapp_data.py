@@ -257,7 +257,7 @@ class WhatsAppDataExtractor:
                 f.write(f"Date: {info['date']}\n")
                 f.write("-" * 60 + "\n")
         
-        print(f"✅ Path list saved: {path_list_file}")
+        print(f" Path list saved: {path_list_file}")
         
         # 3. Media by type files - UPDATED to include full original paths
         media_by_type = {}
@@ -285,7 +285,7 @@ class WhatsAppDataExtractor:
             with open(type_file, 'w', encoding='utf-8') as f:
                 json.dump(type_data, f, indent=2, ensure_ascii=False)
         
-        print(f"✅ Media type files saved in: {self.media_paths_dir}")
+        print(f" Media type files saved in: {self.media_paths_dir}")
 
         # 4. NEW: Full directory structure file showing original ZIP paths
         directory_structure_file = self.media_paths_dir / "original_directory_structure.txt"
