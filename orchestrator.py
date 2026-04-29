@@ -86,7 +86,7 @@ def main():
     android_dump_path = Path(android_dump_path_str)
 
     if not android_dump_path.exists():
-        print(f"❌ Error: The provided Android data dump path does not exist: {android_dump_path}")
+        print(f" Error: The provided Android data dump path does not exist: {android_dump_path}")
         return
 
     print(f"\nStarting extraction process for data dump: {android_dump_path}")
