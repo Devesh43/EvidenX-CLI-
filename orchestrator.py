@@ -13,7 +13,7 @@ def run_extractor(script_path, data_dump_path, output_base_dir):
         output_base_dir (Path): The base directory where the extractor should save its output.
     """
     print(f"\n{'='*60}")
-    print(f"🚀 Running extractor: {script_path.name}")
+    print(f" Running extractor: {script_path.name}")
     print(f"   Input data dump: {data_dump_path}")
     print(f"   Output will be generated in: {output_base_dir}")
     print(f"{'='*60}")
