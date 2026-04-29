@@ -98,7 +98,7 @@ def main():
     if whatsapp_extractor_script.exists():
         run_extractor(whatsapp_extractor_script, android_dump_path, whatsapp_script_dir)
     else:
-        print(f"⚠️ WhatsApp extractor script not found at: {whatsapp_extractor_script}")
+        print(f" WhatsApp extractor script not found at: {whatsapp_extractor_script}")
         print("Please ensure 'Whatsapp JSON Script' folder is in the same directory as this orchestrator.")
 
     # --- Run Signal Extractor ---
