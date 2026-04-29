@@ -78,7 +78,7 @@ The `orchestrator.py` script serves as the control layer — automatically ident
 
 ##  Module-Wise Functionality
 
-### 🟢 **WhatsApp Extractor**
+###  **WhatsApp Extractor**
 
 * Decrypts `msgstore.db.crypt14` / `msgstore.db.crypt15` using the recovered key.
 * Parses messages, groups, contacts, calls, and associated media paths.
