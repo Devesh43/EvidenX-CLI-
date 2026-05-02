@@ -19,7 +19,7 @@ def install_packages():
             subprocess.check_call([sys.executable, "-m", "pip", "install", package])
             print(f" Successfully installed {package}")
         except subprocess.CalledProcessError as e:
-            print(f"❌ Failed to install {package}. Error: {e}")
+            print(f" Failed to install {package}. Error: {e}")
             print("Please ensure you have pip installed and try running this script again.")
             sys.exit(1)
         except Exception as e:
