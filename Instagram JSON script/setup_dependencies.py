@@ -5,7 +5,7 @@ def install_packages():
     """
     Installs the required Python packages for the Instagram Extractor project.
     """
-    print(" Setting up Python dependencies for Instagram Extractor...")
+    print(" Setting up the Python dependencies for Instagram Extractor...")
     
     required_packages = [
         "beautifulsoup4",
