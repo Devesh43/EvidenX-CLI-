@@ -60,7 +60,7 @@ class WhatsAppDataExtractor:
                     print(f" Found the ZIP file: {zip_path}")
                     return zip_path
         
-        raise FileNotFoundError("❌ No .zip file found in the provided folder")
+        raise FileNotFoundError(" No .zip file found in the provided folder")
 
     def find_in_zip(self, zipf, name_contains):
         """Find file in ZIP archive by name pattern"""
