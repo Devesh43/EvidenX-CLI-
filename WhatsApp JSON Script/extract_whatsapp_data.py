@@ -78,7 +78,7 @@ class WhatsAppDataExtractor:
 
     def build_media_index(self, zipf):
         """Build index of all media files in ZIP (from Flask version)"""
-        print("🎬 Building media index from ZIP file...")
+        print(" Building media index from ZIP file...")
         
         index = {}
         for info in zipf.infolist():
