@@ -51,7 +51,7 @@ class WhatsAppDataExtractor:
 
     def find_zip_file(self):
         """Find the WhatsApp backup ZIP file"""
-        print("🔍 Searching for WhatsApp backup ZIP file...")
+        print("Searching for WhatsApp backup ZIP file...")
         
         for root, dirs, files in os.walk(self.root_folder_path):
             for file in files:
