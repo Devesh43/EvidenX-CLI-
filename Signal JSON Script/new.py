@@ -77,7 +77,7 @@ class ComprehensiveSignalExtractor:
 
     def find_signal_files(self, search_path):
         """Find Signal database files with priority for decrypted ones"""
-        print(f"🔍 Searching for Signal files in: {search_path}")
+        print(f" Searching for Signal files in: {search_path}")
         
         found_files = {
             'databases': [],
