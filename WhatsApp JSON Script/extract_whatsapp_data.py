@@ -310,7 +310,7 @@ class WhatsAppDataExtractor:
             
             # Sort directories and display tree structure
             for directory in sorted(directory_tree.keys()):
-                f.write(f"📁 {directory}/\n")
+                f.write(f" {directory}/\n")
                 for file_info in sorted(directory_tree[directory], key=lambda x: x['filename']):
                     f.write(f"   📄 {file_info['filename']} ({file_info['size']}) [{file_info['type']}]\n")
                 f.write("\n")
