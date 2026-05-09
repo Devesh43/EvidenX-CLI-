@@ -331,7 +331,7 @@ class WhatsAppDataExtractor:
 
     def parse_contacts_db(self, contacts_db_path):
         """Extract contacts from contacts database"""
-        print("📞 Parsing contacts database...")
+        print(" Parsing contacts database...")
         
         contacts = {}
         try:
