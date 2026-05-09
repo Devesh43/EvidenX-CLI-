@@ -178,7 +178,7 @@ class WhatsAppDataExtractor:
                 
                 # Skip if already exists
                 if dest_path.exists():
-                    print(f"⏭️ Skipping existing file: {safe_filename}")
+                    print(f" Skipping existing file: {safe_filename}")
                     continue
                 
                 # Extract file from ZIP
