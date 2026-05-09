@@ -237,7 +237,7 @@ class WhatsAppDataExtractor:
         
         with open(media_mapping_file, 'w', encoding='utf-8') as f:
             json.dump(mapping_data, f, indent=2, ensure_ascii=False)
-        print(f"✅ Media mapping saved: {media_mapping_file}")
+        print(f" Media mapping saved: {media_mapping_file}")
         
         # 2. Simple path list file - UPDATED to show full original paths
         path_list_file = self.media_paths_dir / "extracted_media_paths.txt"
