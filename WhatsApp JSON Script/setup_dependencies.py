@@ -12,7 +12,7 @@ def install_package(package):
     """Install a Python package using pip"""
     try:
         subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-        print(f"✅ Successfully installed {package}")
+        print(f" Successfully installed {package}")
         return True
     except subprocess.CalledProcessError as e:
         print(f"❌ Failed to install {package}: {e}")
