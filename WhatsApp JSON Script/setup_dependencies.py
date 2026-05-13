@@ -29,7 +29,7 @@ def install_wadecrypt():
     except FileNotFoundError:
         pass
     
-    print("📦 Installing wadecrypt...")
+    print(" Installing wadecrypt...")
     
     # Install wadecrypt using pip
     try:
