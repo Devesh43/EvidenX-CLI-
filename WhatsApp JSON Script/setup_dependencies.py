@@ -15,7 +15,7 @@ def install_package(package):
         print(f" Successfully installed {package}")
         return True
     except subprocess.CalledProcessError as e:
-        print(f"❌ Failed to install {package}: {e}")
+        print(f" Failed to install {package}: {e}")
         return False
 
 def install_wadecrypt():
