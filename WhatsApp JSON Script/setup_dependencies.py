@@ -24,7 +24,7 @@ def install_wadecrypt():
         # Check if wadecrypt is already installed
         result = subprocess.run(["wadecrypt", "--help"], capture_output=True)
         if result.returncode == 0:
-            print("✅ wadecrypt is already installed")
+            print(" wadecrypt is already installed")
             return True
     except FileNotFoundError:
         pass
