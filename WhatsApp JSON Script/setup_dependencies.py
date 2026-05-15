@@ -34,15 +34,15 @@ def install_wadecrypt():
     # Install wadecrypt using pip
     try:
         subprocess.check_call([sys.executable, "-m", "pip", "install", "wadecrypt"])
-        print("✅ Successfully installed wadecrypt")
+        print(" Successfully installed wadecrypt")
         return True
     except subprocess.CalledProcessError:
-        print("⚠️ Failed to install wadecrypt via pip, trying alternative method...")
+        print(" Failed to install wadecrypt via pip, trying alternative method...")
         
         # Alternative installation method
         try:
             subprocess.check_call([sys.executable, "-m", "pip", "install", "git+https://github.com/ElDavoo/WhatsApp-Crypt14-Crypt15-Decryptor.git"])
-            print("✅ Successfully installed wadecrypt from GitHub")
+            print(" Successfully installed wadecrypt from GitHub")
             return True
         except subprocess.CalledProcessError as e:
             print(f"❌ Failed to install wadecrypt: {e}")
