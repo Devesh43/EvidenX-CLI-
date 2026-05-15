@@ -45,8 +45,8 @@ def install_wadecrypt():
             print(" Successfully installed wadecrypt from GitHub")
             return True
         except subprocess.CalledProcessError as e:
-            print(f"❌ Failed to install wadecrypt: {e}")
-            print("💡 You may need to install it manually:")
+            print(f" Failed to install wadecrypt: {e}")
+            print(" You may need to install it manually:")
             print("   pip install git+https://github.com/ElDavoo/WhatsApp-Crypt14-Crypt15-Decryptor.git")
             return False
 
