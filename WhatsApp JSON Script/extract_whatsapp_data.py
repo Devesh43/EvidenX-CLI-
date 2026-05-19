@@ -320,7 +320,7 @@ class WhatsAppDataExtractor:
     def decrypt_database(self, key_file, encrypted_db, output_db='msgstore.db'):
         """Decrypt WhatsApp database using wadecrypt"""
         cmd = ['wadecrypt', key_file, encrypted_db, output_db]
-        print(f"🔐 Decrypting database: {' '.join(cmd)}")
+        print(f" Decrypting database: {' '.join(cmd)}")
         
         result = subprocess.run(cmd, capture_output=True, text=True)
         if result.returncode != 0:
