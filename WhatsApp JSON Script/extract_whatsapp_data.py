@@ -86,7 +86,7 @@ class WhatsAppDataExtractor:
             if base and base not in index:
                 index[base] = info.filename
         
-        print(f"📊 Built media index with {len(index)} files")
+        print(f" Built media index with {len(index)} files")
         return index
 
     def get_media_files_from_zip(self, zipf):
