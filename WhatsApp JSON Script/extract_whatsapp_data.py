@@ -312,7 +312,7 @@ class WhatsAppDataExtractor:
             for directory in sorted(directory_tree.keys()):
                 f.write(f" {directory}/\n")
                 for file_info in sorted(directory_tree[directory], key=lambda x: x['filename']):
-                    f.write(f"   📄 {file_info['filename']} ({file_info['size']}) [{file_info['type']}]\n")
+                    f.write(f"    {file_info['filename']} ({file_info['size']}) [{file_info['type']}]\n")
                 f.write("\n")
 
         print(f"✅ Directory structure saved: {directory_structure_file}")
