@@ -149,7 +149,7 @@ Ensure dumps include the **app database**, **shared preferences**, and **keystor
 python setup_dependencies.py
 ```
 
-### 2️⃣ Run Orchestrator
+###  Run Orchestrator
 
 ```bash
 python orchestrator.py
