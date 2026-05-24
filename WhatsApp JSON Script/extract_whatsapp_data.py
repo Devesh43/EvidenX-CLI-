@@ -199,7 +199,7 @@ class WhatsAppDataExtractor:
                 extracted_count += 1
                 
                 if extracted_count % 50 == 0:
-                    print(f"📊 Extracted {extracted_count} files...")
+                    print(f" Extracted {extracted_count} files...")
                 
             except Exception as e:
                 print(f" Failed to extract {media_file['filename']}: {e}")
