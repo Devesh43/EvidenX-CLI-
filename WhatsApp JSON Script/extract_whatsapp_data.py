@@ -326,7 +326,7 @@ class WhatsAppDataExtractor:
         if result.returncode != 0:
             raise RuntimeError(f"❌ Decryption failed: {result.stderr}")
         
-        print("✅ Database decrypted successfully")
+        print(" Database decrypted successfully")
         return output_db
 
     def parse_contacts_db(self, contacts_db_path):
