@@ -315,7 +315,7 @@ class WhatsAppDataExtractor:
                     f.write(f"    {file_info['filename']} ({file_info['size']}) [{file_info['type']}]\n")
                 f.write("\n")
 
-        print(f"✅ Directory structure saved: {directory_structure_file}")
+        print(f" Directory structure saved: {directory_structure_file}")
 
     def decrypt_database(self, key_file, encrypted_db, output_db='msgstore.db'):
         """Decrypt WhatsApp database using wadecrypt"""
