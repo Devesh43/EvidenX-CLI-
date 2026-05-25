@@ -471,7 +471,7 @@ class WhatsAppDataExtractor:
             # Check if call_log table exists
             cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='call_log'")
             if not cursor.fetchone():
-                print("⚠️ No call_log table found in database")
+                print(" No call_log table found in database")
                 conn.close()
                 return call_logs
         
