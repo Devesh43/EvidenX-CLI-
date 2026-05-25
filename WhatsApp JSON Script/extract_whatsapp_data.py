@@ -324,7 +324,7 @@ class WhatsAppDataExtractor:
         
         result = subprocess.run(cmd, capture_output=True, text=True)
         if result.returncode != 0:
-            raise RuntimeError(f"❌ Decryption failed: {result.stderr}")
+            raise RuntimeError(f" Decryption failed: {result.stderr}")
         
         print(" Database decrypted successfully")
         return output_db
