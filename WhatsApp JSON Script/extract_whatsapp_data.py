@@ -448,7 +448,7 @@ class WhatsAppDataExtractor:
                             group_participants[group_name] = participants
                     
                     except Exception as e:
-                        print(f"⚠️ Error extracting participants for {group_name}: {e}")
+                        print(f" Error extracting participants for {group_name}: {e}")
             
             conn.close()
             print(f"✅ Extracted participants for {len(group_participants)} groups")
