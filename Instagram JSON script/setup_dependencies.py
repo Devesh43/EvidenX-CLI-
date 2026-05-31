@@ -26,7 +26,7 @@ def install_packages():
             print(f"An unexpected error occurred while installing {package}: {e}")
             sys.exit(1)
             
-    print("\n🎉 All dependencies installed successfully!")
+    print("\n All dependencies installed successfully!")
     print("You can now run the main Instagram Extractor script: python Instagram_Extractor.py")
 
 if __name__ == "__main__":
