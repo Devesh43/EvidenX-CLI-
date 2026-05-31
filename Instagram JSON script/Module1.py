@@ -369,7 +369,7 @@ class InstagramExtractorV5Enhanced:
                 if instagram_dbs:
                     score = len(instagram_dbs) * 10
                     candidates.append((path.parent, score, "databases_folder", instagram_dbs))
-                    print(f"✅ Databases folder: {path} ({len(instagram_dbs)} Instagram DBs)")
+                    print(f" Databases folder: {path} ({len(instagram_dbs)} Instagram DBs)")
         
         # Strategy 2: Look for Instagram app folders
         app_patterns = ['com.instagram.android', 'instagram', 'Instagram']
