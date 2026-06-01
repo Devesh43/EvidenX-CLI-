@@ -415,7 +415,7 @@ class InstagramExtractorV5Enhanced:
             self.logger.info(f"Selected Instagram folder: {selected_path}")
             return selected_path
         
-        print("⚠️ No Instagram folder found, analyzing entire directory")
+        print(" No Instagram folder found, analyzing entire directory")
         return self.working_folder
     
     def get_file_info(self, file_path):
