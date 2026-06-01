@@ -401,7 +401,7 @@ class InstagramExtractorV5Enhanced:
                     db_count = len(list(parent_dir.rglob('*.db')))
                     score = db_count + 2
                     candidates.append((parent_dir, score, "db_parent", [db_file]))
-                    print(f"✅ DB parent folder: {parent_dir}")
+                    print(f" DB parent folder: {parent_dir}")
         
         # Select best candidate
         if candidates:
