@@ -181,7 +181,7 @@ class ComprehensiveSignalExtractor:
     def decrypt_signal_database(self, db_path, keystore_path, preferences_path):
         """Decrypt Signal database using keystore and preferences"""
         try:
-            print("🔐 Attempting to decrypt Signal database...")
+            print(" Attempting to decrypt Signal database...")
             
             # Extract keystore key (16 bytes from offset 0x2D to 0x3C)
             with open(keystore_path, 'rb') as f:
