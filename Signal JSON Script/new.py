@@ -156,7 +156,7 @@ class ComprehensiveSignalExtractor:
         # First priority: decrypted databases
         if found_files['decrypted_databases']:
             db_path = found_files['decrypted_databases'][0]
-            print(f"🎉 Using DECRYPTED database: {os.path.basename(db_path)}")
+            print(f" Using DECRYPTED database: {os.path.basename(db_path)}")
             return db_path, 'decrypted'
         
         # Second priority: try to decrypt encrypted database
