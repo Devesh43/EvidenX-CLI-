@@ -214,7 +214,7 @@ class ComprehensiveSignalExtractor:
             
             # For AES-GCM: IV (12 bytes) + ciphertext + auth_tag (16 bytes)
             if len(encrypted_data) < 28:
-                print("❌ Encrypted data too short")
+                print(" Encrypted data too short")
                 return None
             
             iv = encrypted_data[:12]
