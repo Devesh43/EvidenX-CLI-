@@ -250,7 +250,7 @@ class ComprehensiveSignalExtractor:
                 conn.close()
                 
                 if result and result[0] > 0:
-                    print(f"✅ Successfully decrypted database ({result[0]} tables)")
+                    print(f" Successfully decrypted database ({result[0]} tables)")
                     return decrypted_path
                 else:
                     print("❌ Decryption failed - no tables found")
