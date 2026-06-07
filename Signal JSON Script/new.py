@@ -192,7 +192,7 @@ class ComprehensiveSignalExtractor:
                 return None
             
             userkey = keystore_data[0x2D:0x3D]  # 16 bytes
-            print(f"✅ Extracted {len(userkey)} byte key from keystore")
+            print(f" Extracted {len(userkey)} byte key from keystore")
             
             # Extract encrypted secret from preferences
             tree = ET.parse(preferences_path)
