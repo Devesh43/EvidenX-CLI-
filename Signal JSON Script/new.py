@@ -264,7 +264,7 @@ class ComprehensiveSignalExtractor:
                 return None
             
         except Exception as e:
-            print(f"❌ Error during decryption: {e}")
+            print(f" Error during decryption: {e}")
             return None
 
     def test_database_connection(self, db_path):
