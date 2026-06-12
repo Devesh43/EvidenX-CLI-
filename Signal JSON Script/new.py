@@ -428,7 +428,7 @@ class ComprehensiveSignalExtractor:
             cursor.execute("SELECT * FROM attachment")
             rows = cursor.fetchall()
             
-            print(f"📊 Processing {len(rows)} attachments...")
+            print(f" Processing {len(rows)} attachments...")
             
             for row in rows:
                 try:
