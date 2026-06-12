@@ -329,7 +329,7 @@ class ComprehensiveSignalExtractor:
             # Get table structure
             cursor.execute("PRAGMA table_info(recipient)")
             columns = [row[1] for row in cursor.fetchall()]
-            print(f"📋 Recipient columns: {columns}")
+            print(f" Recipient columns: {columns}")
             
             # Get all recipients
             cursor.execute("SELECT * FROM recipient")
