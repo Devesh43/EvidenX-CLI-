@@ -317,7 +317,7 @@ class ComprehensiveSignalExtractor:
 
     def extract_recipients(self, cursor):
         """Extract all recipients/contacts with better phone number extraction"""
-        print("👥 Extracting recipients...")
+        print(" Extracting recipients...")
         
         try:
             # Check if recipient table exists
