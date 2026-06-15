@@ -410,7 +410,7 @@ class WhatsAppDataExtractor:
                     group_name = subject or jid_str
                     group_chats.append((chat_id, jid_row_id, group_name, jid_str))
             
-            print(f"📊 Found {len(group_chats)} groups")
+            print(f" Found {len(group_chats)} groups")
             
             # Extract participants from messages
             cursor.execute("PRAGMA table_info(message)")
