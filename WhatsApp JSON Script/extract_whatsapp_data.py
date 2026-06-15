@@ -478,7 +478,7 @@ class WhatsAppDataExtractor:
             # Get call_log table structure
             cursor.execute("PRAGMA table_info(call_log)")
             columns = [row[1] for row in cursor.fetchall()]
-            print(f"📊 Call log columns: {columns}")
+            print(f" Call log columns: {columns}")
             
             # Find relevant columns
             def find_col(*names):
