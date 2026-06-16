@@ -282,7 +282,7 @@ class ComprehensiveSignalExtractor:
                 print(f" Database connection successful - found {len(tables)} tables")
                 return True
             else:
-                print("❌ Database appears empty")
+                print(" Database appears empty")
                 return False
                 
         except Exception as e:
