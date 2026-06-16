@@ -511,7 +511,7 @@ class ComprehensiveSignalExtractor:
             print(f"✅ Mapped {len(self.threads)} threads")
             
         except Exception as e:
-            print(f"❌ Error extracting threads: {e}")
+            print(f" Error extracting threads: {e}")
 
     def extract_messages(self, cursor):
         """Extract and organize messages with proper content handling"""
