@@ -698,7 +698,7 @@ class ComprehensiveSignalExtractor:
                     chat_messages[thread_id]['messages'][date_str].append(message_data)
                     
                 except Exception as e:
-                    print(f"⚠️ Error processing message {i}: {e}")
+                    print(f" Error processing message {i}: {e}")
                     continue
             
             # Separate individual and group chats
