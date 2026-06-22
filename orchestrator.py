@@ -52,7 +52,7 @@ def run_extractor(script_path, data_dump_path, output_base_dir):
             cwd=output_base_dir, # Set the working directory for the subprocess
             env=env # Pass the modified environment
         )
-        print(f"✅ {script_path.name} finished successfully.")
+        print(f" {script_path.name} finished successfully.")
         print("--- STDOUT ---")
         print(process.stdout)
         # Note: STDERR might contain non-error messages (e.g., warnings or info from logging)
