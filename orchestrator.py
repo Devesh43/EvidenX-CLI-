@@ -61,7 +61,7 @@ def run_extractor(script_path, data_dump_path, output_base_dir):
         # print(process.stderr)
 
     except subprocess.CalledProcessError as e:
-        print(f"❌ ERROR running {script_path.name}. Exit code: {e.returncode}")
+        print(f" ERROR running {script_path.name}. Exit code: {e.returncode}")
         print("--- STDOUT (Error) ---")
         print(e.stdout)
         print("--- STDERR (Error) ---")
