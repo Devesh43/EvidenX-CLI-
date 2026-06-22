@@ -82,7 +82,7 @@ def main():
     current_script_dir = Path(__file__).resolve().parent
 
     # Prompt for the Android data dump path
-    android_dump_path_str = input("\n📂 Enter the FULL path to the Android data dump folder: ").strip().strip('"')
+    android_dump_path_str = input("\n Enter the FULL path to the Android data dump folder: ").strip().strip('"')
     android_dump_path = Path(android_dump_path_str)
 
     if not android_dump_path.exists():
