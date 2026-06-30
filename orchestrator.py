@@ -73,7 +73,7 @@ def run_extractor(script_path, data_dump_path, output_base_dir):
 
 def main():
     print("=" * 70)
-    print("📱 Forensic Extractor Orchestrator for Social Media Apps")
+    print(" Forensic Extractor Orchestrator for Social Media Apps")
     print("=" * 70)
     print("This script will run WhatsApp, Signal, and Instagram extractors.")
     print("It assumes all extractor folders are in the same parent directory.")
