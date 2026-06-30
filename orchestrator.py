@@ -119,7 +119,7 @@ def main():
     if instagram_extractor_script.exists():
         run_extractor(instagram_extractor_script, android_dump_path, instagram_script_dir)
     else:
-        print(f"⚠️ Instagram extractor script not found at: {instagram_extractor_script}")
+        print(f" Instagram extractor script not found at: {instagram_extractor_script}")
         print("Please ensure 'Instagram JSON script' folder is in the same directory as this orchestrator.")
 
     print("\n" + "="*70)
