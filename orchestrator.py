@@ -108,7 +108,7 @@ def main():
     if signal_extractor_script.exists():
         run_extractor(signal_extractor_script, android_dump_path, signal_script_dir)
     else:
-        print(f"⚠️ Signal extractor script not found at: {signal_extractor_script}")
+        print(f" Signal extractor script not found at: {signal_extractor_script}")
         print("Please ensure 'Signal JSON Script' folder is in the same directory as this orchestrator.")
 
     # --- Run Instagram Extractor ---
