@@ -67,7 +67,7 @@ def run_extractor(script_path, data_dump_path, output_base_dir):
         print("--- STDERR (Error) ---")
         print(e.stderr)
     except FileNotFoundError:
-        print(f"❌ ERROR: Python executable not found. Is Python installed and in your PATH?")
+        print(f" ERROR: Python executable not found. Is Python installed and in your PATH?")
     except Exception as e:
         print(f" An unexpected error occurred while running {script_path.name}: {e}")
 
