@@ -73,7 +73,7 @@ def main():
     if all_success:
         print(" All dependencies installed successfully!")
         print(" You can now run: python extract_whatsapp_data_with_media.py")
-        print("🎬 This version will extract ALL media files to a 'whatsapp_media' folder!")
+        print(" This version will extract ALL media files to a 'whatsapp_media' folder!")
     else:
         print("⚠️ Some dependencies failed to install. Please install them manually.")
         print("📖 Required packages:")
