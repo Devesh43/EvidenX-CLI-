@@ -460,7 +460,7 @@ class WhatsAppDataExtractor:
 
     def extract_call_logs(self, db_path, jid_map):
         """Extract call logs from database"""
-        print("📞 Extracting call logs...")
+        print(" Extracting call logs...")
         
         call_logs = []
         
