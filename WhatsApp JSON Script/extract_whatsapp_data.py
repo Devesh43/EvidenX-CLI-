@@ -366,7 +366,7 @@ class WhatsAppDataExtractor:
             print(f" Loaded {len(contacts)} contacts")
             
         except Exception as e:
-            print(f"⚠️ Error parsing contacts: {e}")
+            print(f" Error parsing contacts: {e}")
         
         return contacts
 
