@@ -391,7 +391,7 @@ class WhatsAppDataExtractor:
 
     def extract_group_participants(self, db_path, jid_map):
         """Extract group participants"""
-        print("👥 Extracting group participants...")
+        print(" Extracting group participants...")
         
         group_participants = {}
         
