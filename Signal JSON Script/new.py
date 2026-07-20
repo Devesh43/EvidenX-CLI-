@@ -526,7 +526,7 @@ class ComprehensiveSignalExtractor:
             # Look for message tables
             message_tables = [t for t in all_tables if t.lower() in ['sms', 'message', 'messages']]
             if not message_tables:
-                print("❌ No message table found")
+                print(" No message table found")
                 return
             
             message_table = message_tables[0]
