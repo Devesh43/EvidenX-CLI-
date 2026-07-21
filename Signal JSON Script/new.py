@@ -515,7 +515,7 @@ class ComprehensiveSignalExtractor:
 
     def extract_messages(self, cursor):
         """Extract and organize messages with proper content handling"""
-        print("💬 Extracting messages...")
+        print(" Extracting messages...")
         
         try:
             # Find message table
