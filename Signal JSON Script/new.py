@@ -485,7 +485,7 @@ class ComprehensiveSignalExtractor:
                         })
                         
                 except Exception as e:
-                    print(f"⚠️ Error processing attachment: {e}")
+                    print(f" Error processing attachment: {e}")
                     continue
             
             print(f"✅ Extracted {len(self.attachments)} attachments")
