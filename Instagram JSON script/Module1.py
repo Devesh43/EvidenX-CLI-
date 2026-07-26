@@ -825,7 +825,7 @@ class InstagramExtractorV5Enhanced:
             print(f"👤 Found username: {value} from {source_file_path}")
         elif key == 'email' and not self.logged_in_user['email']:
             self.logged_in_user['email'] = value
-            print(f"📧 Found email: {value} from {source_file_path}")
+            print(f" Found email: {value} from {source_file_path}")
         elif key == 'phone_number' and not self.logged_in_user['phone_number']:
             self.logged_in_user['phone_number'] = value
             print(f"📱 Found phone number: {value} from {source_file_path}")
