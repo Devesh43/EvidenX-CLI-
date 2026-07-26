@@ -916,7 +916,7 @@ class InstagramExtractorV5Enhanced:
             cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
             tables = [row[0] for row in cursor.fetchall()]
             
-            print(f"   📊 Tables found: {len(tables)}")
+            print(f"    Tables found: {len(tables)}")
             
             # Check if this database might contain user profile information
             is_profile_db = any(profile_table in [t.lower() for t in tables] for profile_table in self.user_profile_tables)
