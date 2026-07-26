@@ -573,7 +573,7 @@ class InstagramExtractorV5Enhanced:
             self.logged_in_user['user_id_confidence'] = confidence_score
             self.logged_in_user['user_id_source'] = source_description
             self.logger.info(f"Set logged-in user ID to {user_id_str} (Confidence: {confidence_score}, Source: {source_description})")
-            print(f"🔍 Found user ID: {user_id_str} (Confidence: {confidence_score}, Source: {source_description})")
+            print(f" Found user ID: {user_id_str} (Confidence: {confidence_score}, Source: {source_description})")
 
     def extract_session_ids(self, text_content, source_file_path=""):
         """Enhanced: Extract session IDs, authentication tokens, and user identifiers from text content"""
