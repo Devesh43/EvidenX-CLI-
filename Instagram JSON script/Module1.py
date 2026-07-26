@@ -923,7 +923,7 @@ class InstagramExtractorV5Enhanced:
             is_session_db = any(session_table in [t.lower() for t in tables] for session_table in self.session_tables)
             
             if is_profile_db:
-                print(f"   👤 Potential user profile database detected")
+                print(f"    Potential user profile database detected")
             if is_session_db:
                 print(f"   🔑 Potential session database detected")
             
