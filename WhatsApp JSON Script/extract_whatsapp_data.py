@@ -504,7 +504,7 @@ class WhatsAppDataExtractor:
             if from_me_col: select_cols.append(from_me_col)
             
             if not select_cols:
-                print("⚠️ Could not identify call log columns")
+                print(" Could not identify call log columns")
                 conn.close()
                 return call_logs
             
