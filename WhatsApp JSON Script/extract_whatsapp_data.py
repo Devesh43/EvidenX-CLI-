@@ -91,7 +91,7 @@ class WhatsAppDataExtractor:
 
     def get_media_files_from_zip(self, zipf):
         """Extract all media files information from the ZIP (from Flask version)"""
-        print("🎬 Scanning for media files in ZIP...")
+        print(" Scanning for media files in ZIP...")
         
         media_files = []
         
