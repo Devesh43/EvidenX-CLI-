@@ -530,7 +530,7 @@ class ComprehensiveSignalExtractor:
                 return
             
             message_table = message_tables[0]
-            print(f"📋 Using message table: {message_table}")
+            print(f" Using message table: {message_table}")
             
             # Get table structure
             cursor.execute(f"PRAGMA table_info({message_table})")
