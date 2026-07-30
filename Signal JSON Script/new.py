@@ -521,7 +521,7 @@ class ComprehensiveSignalExtractor:
             # Find message table
             cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
             all_tables = [row[0] for row in cursor.fetchall()]
-            print(f"📋 Available tables: {all_tables}")
+            print(f" Available tables: {all_tables}")
             
             # Look for message tables
             message_tables = [t for t in all_tables if t.lower() in ['sms', 'message', 'messages']]
