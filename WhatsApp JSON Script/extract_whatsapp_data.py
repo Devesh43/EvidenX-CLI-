@@ -779,7 +779,7 @@ class WhatsAppDataExtractor:
         master_file = self.output_dir / "whatsapp_master_data.json"
         with open(master_file, 'w', encoding='utf-8') as f:
             json.dump(master_data, f, indent=2, ensure_ascii=False)
-        print(f"✅ Master file saved: {master_file}")
+        print(f" Master file saved: {master_file}")
         
         # 2. Separate chats file
         chats_file = self.output_dir / "whatsapp_chats.json"
