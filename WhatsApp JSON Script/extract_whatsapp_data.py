@@ -608,7 +608,7 @@ class WhatsAppDataExtractor:
                     continue
             
             conn.close()
-            print(f"✅ Extracted {len(call_logs)} call logs")
+            print(f" Extracted {len(call_logs)} call logs")
             
         except Exception as e:
             print(f" Error extracting call logs: {e}")
