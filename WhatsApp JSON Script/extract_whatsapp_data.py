@@ -736,7 +736,7 @@ class WhatsAppDataExtractor:
                     "message_count": sum(len(msgs) for msgs in chat_messages[chat_name].values())
                 })
         
-        print(f"✅ Parsed {len(chat_list)} chats with messages")
+        print(f" Parsed {len(chat_list)} chats with messages")
         print(f"📎 Found {messages_with_media} messages with media attachments")
         return chat_messages, chat_list
 
