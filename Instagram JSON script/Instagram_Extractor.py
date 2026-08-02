@@ -72,7 +72,7 @@ class MasterExtractor:
             with open(sanitized_script_path, 'w', encoding='utf-8') as f_out:
                 f_out.write(sanitized_content)
                 
-            print(f"ℹ️ Created sanitized script: {sanitized_script_path.name}")
+            print(f" Created sanitized script: {sanitized_script_path.name}")
             return sanitized_script_path
 
         except Exception as e:
