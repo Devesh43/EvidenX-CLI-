@@ -96,7 +96,7 @@ class MasterExtractor:
             return False
 
         print(f"\n{'='*30}")
-        print(f"🚀 Running {script_name}...")
+        print(f" Running {script_name}...")
         print(f"   Input: {self.input_path}")
         print(f"   Output: {output_dir}")
         print(f"{'='*30}")
