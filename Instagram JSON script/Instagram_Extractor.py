@@ -40,7 +40,7 @@ class MasterExtractor:
         self.v7_output_dir.mkdir(parents=True, exist_ok=True)
         self.final_output_dir.mkdir(parents=True, exist_ok=True)
 
-        print(f"📂 Master output will be saved to: {self.base_output_dir}")
+        print(f" Master output will be saved to: {self.base_output_dir}")
 
     def _sanitize_script(self, original_script_path):
         """
