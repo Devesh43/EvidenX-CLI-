@@ -76,7 +76,7 @@ class MasterExtractor:
             return sanitized_script_path
 
         except Exception as e:
-            print(f"❌ ERROR sanitizing script {original_script_path.name}: {e}")
+            print(f" ERROR sanitizing script {original_script_path.name}: {e}")
             return None
 
     def _run_script(self, script_name, output_dir):
