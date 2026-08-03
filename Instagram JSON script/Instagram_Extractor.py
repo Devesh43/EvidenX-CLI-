@@ -145,7 +145,7 @@ class MasterExtractor:
             print(f"❌ ERROR: 'python' command not found. Is Python installed and in your PATH?")
             return None
         except Exception as e:
-            print(f"❌ An unexpected error occurred while running {script_name}: {e}")
+            print(f" An unexpected error occurred while running {script_name}: {e}")
             return None
 
 
