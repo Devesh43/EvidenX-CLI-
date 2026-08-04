@@ -283,7 +283,7 @@ class MasterExtractor:
                 shutil.copy(src, self.final_output_dir / filename)
                 print(f"   Copied: {filename}")
             else:
-                print(f"   ⚠️ V5 file not found, skipping: {filename}")
+                print(f"    V5 file not found, skipping: {filename}")
 
         # 2. Handle session_ids.json merging
         print("\n   -> Merging session_ids.json from V5 and V7...")
