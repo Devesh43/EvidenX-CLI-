@@ -134,7 +134,7 @@ class MasterExtractor:
             actual_output = max(output_dir.iterdir(), key=os.path.getmtime)
             return actual_output
         except subprocess.CalledProcessError as e:
-            print(f"❌ ERROR running {script_name}:")
+            print(f" ERROR running {script_name}:")
             # Print stdout and stderr from the failed process for better debugging
             print("--- STDOUT ---")
             print(e.stdout)
