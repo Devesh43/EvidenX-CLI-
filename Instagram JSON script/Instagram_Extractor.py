@@ -539,7 +539,7 @@ class MasterExtractor:
             sanitized_v7_path = self._sanitize_script(Path(V7_SCRIPT_NAME))
 
             if not sanitized_v5_path or not sanitized_v7_path:
-                print("❌ Script sanitization failed. Aborting.")
+                print(" Script sanitization failed. Aborting.")
                 return
 
             # Run V5 using the sanitized script
