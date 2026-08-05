@@ -432,7 +432,7 @@ class MasterExtractor:
             }
         }
         self._save_final_json(final_session_doc, 'session_ids.json')
-        print("   ✅ Merged session_ids.json saved.")
+        print("    Merged session_ids.json saved.")
 
 
         # 3. Merge common files (logged_in_user_profile, complete_folder_analysis, extraction_report)
