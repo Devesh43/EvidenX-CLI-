@@ -567,7 +567,7 @@ class MasterExtractor:
                 print(f"⚠️ Error during output directory cleanup: {e}")
         finally:
             # Cleanup sanitized script files
-            print("\n🧹 Cleaning up temporary script files...")
+            print("\n Cleaning up temporary script files...")
             if sanitized_v5_path and sanitized_v5_path.exists():
                 sanitized_v5_path.unlink()
                 print(f"   Removed {sanitized_v5_path.name}")
