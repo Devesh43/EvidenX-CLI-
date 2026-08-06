@@ -524,7 +524,7 @@ class MasterExtractor:
         }
         self._save_final_json(final_master_doc, 'master.json')
 
-        print(f"\n✅ Merging complete. Final report is in: {self.final_output_dir}")
+        print(f"\n Merging complete. Final report is in: {self.final_output_dir}")
 
 
     def run_full_extraction(self):
