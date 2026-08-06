@@ -562,7 +562,7 @@ class MasterExtractor:
             try:
                 shutil.rmtree(self.v5_output_dir)
                 shutil.rmtree(self.v7_output_dir)
-                print("✅ Output directory cleanup complete.")
+                print(" Output directory cleanup complete.")
             except OSError as e:
                 print(f"⚠️ Error during output directory cleanup: {e}")
         finally:
