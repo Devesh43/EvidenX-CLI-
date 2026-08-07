@@ -509,7 +509,7 @@ class InstagramDataExtractorV7:
             best_candidate = max(candidates, key=lambda x: x[1])
             selected_path = best_candidate[0]
             
-            print(f"\n🎯 Selected Instagram folder: {selected_path}")
+            print(f"\n Selected Instagram folder: {selected_path}")
             print(f"   Strategy: {best_candidate[2]}")
             print(f"   Score: {best_candidate[1]}")
             
