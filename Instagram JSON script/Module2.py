@@ -527,7 +527,7 @@ class InstagramDataExtractorV7:
         source_desc = f"{source_info.get('type', 'unknown')}:{source_info.get('file', 'unknown')}"
         timestamp = datetime.now().isoformat()
         
-        print(f"🔍 ULTRA-AGGRESSIVE SCAN: {source_desc}")
+        print(f" ULTRA-AGGRESSIVE SCAN: {source_desc}")
         
         # 1. EXTRACT ALL USER IDs with real-time feedback
         for pattern in self.user_id_patterns:
