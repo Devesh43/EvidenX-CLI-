@@ -666,7 +666,7 @@ class InstagramDataExtractorV7:
     
     def finalize_user_data(self):
         """Finalize user data from all collected information with detailed analysis"""
-        print(f"\n🎯 FINALIZING USER DATA WITH DETAILED ANALYSIS...")
+        print(f"\n FINALIZING USER DATA WITH DETAILED ANALYSIS...")
         print(f"   Found {len(self._all_found_user_ids)} unique user IDs")
         print(f"   Found {len(self._all_found_usernames)} unique usernames")
         print(f"   Found {len(self._all_found_emails)} unique emails")
