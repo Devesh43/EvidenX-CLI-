@@ -550,7 +550,7 @@ class InstagramDataExtractorV7:
                     self._all_found_user_ids[user_id]['sources'].append(source_desc)
                     self._all_found_user_ids[user_id]['confidence'] += 10
                     
-                    print(f"🆔 FOUND USER ID: {user_id} in {source_desc} (Count: {self._all_found_user_ids[user_id]['count']})")
+                    print(f" FOUND USER ID: {user_id} in {source_desc} (Count: {self._all_found_user_ids[user_id]['count']})")
         
         # 2. EXTRACT ALL SESSION IDs with real-time feedback
         for pattern in self.session_id_patterns:
