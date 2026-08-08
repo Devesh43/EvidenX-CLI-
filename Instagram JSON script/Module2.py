@@ -777,7 +777,7 @@ class InstagramDataExtractorV7:
                 print(f"   {i+1}. {session_id[:20]}... (Count: {data['count']})")
         
         # 5. ANALYZE FOLLOWER/FOLLOWING COUNTS with detailed source analysis
-        print(f"\n📊 COUNT ANALYSIS:")
+        print(f"\n COUNT ANALYSIS:")
         
         # Analyze follower counts
         if self._follower_count_sources:
