@@ -569,7 +569,7 @@ class ComprehensiveSignalExtractor:
                     break
             
             if not body_col or not time_col:
-                print(f"❌ Missing required columns. Body: {body_col}, Time: {time_col}")
+                print(f" Missing required columns. Body: {body_col}, Time: {time_col}")
                 return
             
             print(f"📋 Using columns - Body: {body_col}, Time: {time_col}, Thread: {thread_col}, Type: {type_col}, ID: {id_col}")
