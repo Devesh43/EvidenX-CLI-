@@ -495,7 +495,7 @@ class ComprehensiveSignalExtractor:
 
     def extract_threads(self, cursor):
         """Extract thread information"""
-        print("🧵 Extracting threads...")
+        print(" Extracting threads...")
         
         try:
             cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='thread'")
