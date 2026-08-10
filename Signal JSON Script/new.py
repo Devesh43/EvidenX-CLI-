@@ -584,7 +584,7 @@ class ComprehensiveSignalExtractor:
                 select_cols.append(id_col)
             
             query = f"SELECT {', '.join(select_cols)} FROM {message_table} ORDER BY {time_col} ASC"
-            print(f"📋 Query: {query}")
+            print(f" Query: {query}")
             
             cursor.execute(query)
             rows = cursor.fetchall()
