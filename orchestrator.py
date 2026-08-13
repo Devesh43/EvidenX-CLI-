@@ -123,7 +123,7 @@ def main():
         print("Please ensure 'Instagram JSON script' folder is in the same directory as this orchestrator.")
 
     print("\n" + "="*70)
-    print("🎉 All scheduled extractions attempted.")
+    print(" All scheduled extractions attempted.")
     print("Check the respective application folders for the generated JSON files.")
     print("="*70)
 
