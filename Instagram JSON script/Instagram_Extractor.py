@@ -607,7 +607,7 @@ def main():
     master = MasterExtractor(input_path_str, case_info)
     master.run_full_extraction()
 
-    print("\n🎉 All processes are complete!")
+    print("\n All processes are complete!")
     print(f"📂 Your final, merged report is located in:")
     print(f"   {master.final_output_dir.resolve()}")
 
