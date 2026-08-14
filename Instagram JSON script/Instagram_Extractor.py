@@ -545,7 +545,7 @@ class MasterExtractor:
             # Run V5 using the sanitized script
             v5_actual_output_dir = self._run_script(sanitized_v5_path.name, self.v5_output_dir)
             if not v5_actual_output_dir:
-                print("❌ V5 script failed to run. Aborting.")
+                print(" V5 script failed to run. Aborting.")
                 return
 
             # Run V7 using the sanitized script
