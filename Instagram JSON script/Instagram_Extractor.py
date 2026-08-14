@@ -608,7 +608,7 @@ def main():
     master.run_full_extraction()
 
     print("\n All processes are complete!")
-    print(f"📂 Your final, merged report is located in:")
+    print(f" Your final, merged report is located in:")
     print(f"   {master.final_output_dir.resolve()}")
 
 
