@@ -586,7 +586,7 @@ def main():
     print("-" * 60)
 
     # Get input path from user
-    input_path_str = input("📂 Enter the path to the Instagram data dump (folder or ZIP): ").strip().strip('"')
+    input_path_str = input(" Enter the path to the Instagram data dump (folder or ZIP): ").strip().strip('"')
     if not Path(input_path_str).exists():
         print("❌ ERROR: The provided path does not exist.")
         return
