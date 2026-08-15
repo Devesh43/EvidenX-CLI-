@@ -765,7 +765,7 @@ class InstagramDataExtractorV7:
                     'type': data['type']
                 })
             
-            print(f"\n🔑 PRIMARY SESSION ID ANALYSIS:")
+            print(f"\n PRIMARY SESSION ID ANALYSIS:")
             print(f"   Selected: {primary_session[:20]}...")
             print(f"   Found {session_data['count']} times")
             print(f"   First seen: {session_data['first_seen']}")
