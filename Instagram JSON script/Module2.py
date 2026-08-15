@@ -970,7 +970,7 @@ class InstagramDataExtractorV7:
     
     def analyze_folder_structure(self):
         """Analyze complete folder structure"""
-        print("\n📁 Analyzing complete folder structure...")
+        print("\n Analyzing complete folder structure...")
         
         def analyze_directory(directory_path, relative_path=""):
             """Recursively analyze directory structure"""
