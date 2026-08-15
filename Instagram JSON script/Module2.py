@@ -1032,7 +1032,7 @@ class InstagramDataExtractorV7:
         self.file_system_structure["folders"] = analyze_directory(self.instagram_folder)
         self.file_system_structure["file_types"] = dict(self.file_system_structure["file_types"])
         
-        print(f"✅ Folder structure analysis complete:")
+        print(f" Folder structure analysis complete:")
         print(f"   📁 Total folders: {self.file_system_structure['total_folders']}")
         print(f"   📄 Total files: {self.file_system_structure['total_files']}")
         print(f"   📊 File types: {len(self.file_system_structure['file_types'])}")
